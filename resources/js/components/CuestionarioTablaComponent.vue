@@ -161,7 +161,7 @@
                 let id = this.respuestas[index].id;
                 axios.delete('api/respuestas/'+id).then(()=>{
                     this.respuestas.splice(index,1);
-                    alert('Se ha insertado eliminado');
+                    alert('Se ha eliminado una respuesta');
                 });
             },
             editarRespuesta(index) {
@@ -191,7 +191,7 @@
                     console.log(this.posicion);
                     this.respuestas[this.posicion] = res.data;
                     this.limpiarFormulario();
-                    alert('Se ha editado una nueva');
+                    alert('Se ha editado una respuesta');
                 });
             },
             limpiarFormulario(){
