@@ -95,7 +95,7 @@
 
                 }
                 axios.post('api/respuestas',params).then((res)=>{
-                    const respuesta = res;
+                    const respuesta = res.data;
                     this.$emit('new',respuesta);
                 });
             }

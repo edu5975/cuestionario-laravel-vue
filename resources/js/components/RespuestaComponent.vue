@@ -15,7 +15,7 @@
                 <p>Lo que más me gusta de programar es... {{respuesta.gustos}}</p>
             </div>
             <div class="card-footer text-muted">
-                <button type="submit" class="btn btn-secondary" v-on:click="editarRespuesta()">Editar</button>
+                <!--<button type="submit" class="btn btn-secondary" v-on:click="editarRespuesta()">Editar</button>-->
                 <button type="submit" class="btn btn-danger" v-on:click="eliminarRespuesta()">Eliminar</button>
             </div>
         </div>

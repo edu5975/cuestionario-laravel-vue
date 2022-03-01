@@ -9,7 +9,6 @@
                 :key="respuesta.id"
                 :respuesta="respuesta"
                 @eliminar="eliminarRespuesta(index)"
-                @editar="editarRespuesta(respuesta)"
             ></respuesta-component>
         </div>
     </div>
@@ -29,11 +28,6 @@
         },
         methods:{
             agregarRespuesta(respuesta){
-                console.log(respuesta);
-                this.respuestas.push(respuesta);
-                console.log(this.respuestas)
-            },
-            editarRespuesta(respuesta){
                 console.log(respuesta);
                 this.respuestas.push(respuesta);
                 console.log(this.respuestas)
