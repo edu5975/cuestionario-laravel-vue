@@ -22,6 +22,7 @@ window.Vue = require('vue').default;
 Vue.component('cuestionario-component', require('./components/CuestionarioComponent.vue').default);
 Vue.component('respuesta-component', require('./components/RespuestaComponent.vue').default);
 Vue.component('formulario-component', require('./components/FormularioComponent.vue').default);
+Vue.component('cuestionario-tabla-component', require('./components/CuestionarioTablaComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

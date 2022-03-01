@@ -43,6 +43,8 @@ class RespuestasController extends Controller
         $respuesta->l_php = $request['l_php'];
         $respuesta->l_python = $request['l_python'];
         $respuesta->save();
+
+        return $respuesta;
     }
 
     public function destroy($id)

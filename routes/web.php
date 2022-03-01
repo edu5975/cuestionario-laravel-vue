@@ -13,9 +13,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::redirect('/','/tabla');
 
-Route::get('/', function () {
+Route::get('/cuestionario', function () {
     return view('cuestionario');
+});
+
+Route::get('/tabla', function () {
+    return view('cuestionario_tabla');
 });
 
 Auth::routes();
