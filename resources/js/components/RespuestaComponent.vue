@@ -2,7 +2,7 @@
     <div>
         <br>
         <div class="card">
-            <div class="card-header">Respuesta de {{respuesta.nombre}} - ({{respuesta.created_at.substring(0,10) + ' a las ' + respuesta.created_at.substring(12,17)}})</div>
+            <div class="card-header">Respuesta de {{respuesta.nombre}} - ({{respuesta.created_at}})</div>
             <div class="card-body">
                 <p>Soy {{respuesta.tipo_desarrollador}}</p>
                 Uso los lenguajes de:
